@@ -27,4 +27,5 @@
   <p> If you want to create a break of line with out the space in between that the tag <code>p</code> gives you can you use the break tag <code>br</code>
 <p> If you want to explore more and more tags, you can come <a href="https://www.w3schools.com/" target"_blank">here</a>
   <p> Wait a minute, and how do we link stuff?</p>
-  <p> Thats the <code>a</code> tag and in addition to the tag, we need to had an atribute, the main atribute we need to had to an a tag it's the <code>href</code>, it stands for hypertext reference, and inside the atribute you have to put the URL the pages you want to link to, ex: <code>< a href="https://github.com/benmaia" target"_blank">my github< /a ></code>
+  <p> Thats the <code>a</code> tag and in addition to the tag, we need to had an atribute, the main atribute we need to had to an a tag it's the <code>href</code>, it stands for hypertext reference, and inside the atribute you have to put the URL the pages you want to link to, ex: <code>< a href="https://github.com/benmaia" target"_blank">my github< /a ></code>. If you want to load the link in a new window you have to had the <code>target="_blank"</code>.</p>
+    <p> Now to put images, it's the tag <code>img</code>, but we need an URL now to the source of the image, for that we need to add the atribute <code>src=</code> and put the URL inside.

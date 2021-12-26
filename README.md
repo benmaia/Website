@@ -9,7 +9,7 @@
 <p> Let;s create an html file in your computer and open on a browser</p>
 <p> Go to the location where you want to store your file and create a file with the name <code>index.html</code>. Open the file on the browser as well in a code editor of your choice and keep both open on the screen so you can see changes as you are going.</p>
 
-<h2>HTML Tags</h 2>
+<h2>HTML Tags</h2>
 <p> HTML is based in tags, tags are special text to distinguish parts of your webpage, this tags tell the browser to display whatever is inside the tag in a specific way</p>
 <p> The first tag the you need is the <code>< !DOCTYPE html ></code>, to tell the browser that this is an html file.</p>
 <p> After it, you have the main html tag <code>< html ></code> this insure that all the content inside it will inherit some necessary characteristics of HTML.<p>

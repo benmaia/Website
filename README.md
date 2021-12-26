@@ -23,3 +23,6 @@
   <p> Now let's go for tags in the body</p>
   <p> Most of the body tags are based of things you can do in word documents, create head lines, bold text, make lists and even tables. Lets go to some basics tags, some of them aren't used anymore because CSS to achieve the same style, but i think it's still helpfull to at least know what these tags are</p>
   <p> First we have the <code>H</code> tag that range from <code> h1 to h6</code>, this is the header tag, the <code>h1</code> is the highest in priority and it's generally used for the title of the page.</p>
+  <p> The next tag is the <code>p</code> tag, it's stands for paragraph, it's used to seperate your content into blocks. Like this guide</p>
+  <p> If you want to create a break of line with out the space in between that the tag <code>p</code> gives you can you use the break tag <code>br</code>
+<p> If you want to explore more and more tags, you can come <a href="https://www.w3schools.com/" target"_blank">here</a>

@@ -26,3 +26,5 @@
   <p> The next tag is the <code>p</code> tag, it's stands for paragraph, it's used to seperate your content into blocks. Like this guide</p>
   <p> If you want to create a break of line with out the space in between that the tag <code>p</code> gives you can you use the break tag <code>br</code>
 <p> If you want to explore more and more tags, you can come <a href="https://www.w3schools.com/" target"_blank">here</a>
+  <p> Wait a minute, and how do we link stuff?</p>
+  <p> Thats the <code>a</code> tag and in addition to the tag, we need to had an atribute, the main atribute we need to had to an a tag it's the <code>href</code>, it stands for hypertext reference, and inside the atribute you have to put the URL the pages you want to link to, ex: <code>< a href="https://github.com/benmaia" target"_blank">my github< /a ></code>

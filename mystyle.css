@@ -1,0 +1,33 @@
+/* Adding a black bg color to the nav */
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+}
+
+/* Editing the style of the links inside the nav bar */
+.topnav a {
+	float: left; /* Center the text to left, center or right */
+	color: #f0f8ff;
+	text-align: center;
+	padding: 14px 16px; /* 1st does the pad of top & bottom, 2nd pad of left & right */ 
+	text-decoration: none;
+	font-size: 17px;
+}
+/* Change the color of links on hover (highlighted)*/
+.topnav a:hover {
+	background-color: #ff8c00;
+	color: #8b0000;
+}
+/* Add a color to the active/current link (Where we are)*/
+.topnav a.active {
+	background-color: #8b008b;
+	color: #e9967a;
+}
+
+.topnav-centered a {
+  float: none;
+  position: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

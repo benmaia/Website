@@ -2,7 +2,7 @@
 *::before,
 *::after {
 	box-sizing: border-box;
-	/*outline: 1px solid tomato;*/
+	outline: 1px solid tomato;
 }
 
 body {
@@ -19,6 +19,33 @@ h1 {
 }
 
 p {color: white;}
+
+.card-grid {
+	display: grid;
+	gap: 1.5rem;
+	/*grid-template-areas:
+	'one two'
+	'three four'
+	;*/
+	
+	
+	padding-block: 10rem;
+	width: min(80%, 13rem);
+	margin-inline: auto;
+}
+  
+  @media (min-width: 70em) {
+	.card-grid {
+		grid-template-columns: repeat(2, 1fr);
+		width: min(40%, 28rem);
+		margin-inline: auto;
+	}
+  }
+
+.flex {
+	display: flex;
+	gap: var(--gap, 10rem);
+  }
 
   .topnav {
 	width: 100%;
@@ -46,12 +73,12 @@ p {color: white;}
 	color: black;
   }
   
-  .img1 {
+  /*.img1 {
 	width: 29px;
 	position: absolute;
 	top: 50vh;
 	right:60vh;
-  }
+  }*/
 
 
   @media screen and (max-width: 500px) {

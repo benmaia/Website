@@ -6,115 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Merriweather+Sans:wght@300;700&family=Teko:wght@500;600&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="webproject.css">
-    <link rel="stylesheet" href="libft.css">
-    <link rel="stylesheet" href="printf.css">
-    <link rel="stylesheet" href="b2r.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="topnav.css">
     <link rel="stylesheet" href="mystyle.css">
     <title>Projects</title>
 </head>
 <body>
     <!-- Top Menu bar -->
 	<div class="topnav">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> 
-			<a class="active" href="#"><i class="fa fa-briefcase"></i> Projects</a> 
-			<a href="#"><i class="fa fa-envelope"></i> Contact</a> 
-			<a href="#"><i class="fa fa-rss"></i> Wallet</a>
-	</div>
-    <!-- Website-->
+            <!-- Left-aligned links (default) -->
+			<a class="active" href="index.html"><i class="fa fa-home"></i> Home</a>
+			<!-- Right-aligned links -->
+            <div class="topnav-right">
+                <a href="#"><i class="fa fa-rss"></i> Wallet</a>
+                <a href="#"><i class="fa fa-envelope"></i> Contact</a> 
+			    <a class="active" href="#"><i class="fa fa-briefcase"></i> Projects</a>
+            </div>
+	</div> 
+    <!-- Projects --> 
     <div>
         <main class="card-grid">
+            <!-- Website -->
             <article class="card">
                 <div class="flex">
-                <div class="card-content">
+                    <div class="card-content">
                     <h2 class="card-title">This Website</h2>
-                    <div align="center">
+                        <div align="center">
                         <p class="card-body">My first Web-Development project</p>
                         <a class="button" href="https://github.com/benmaia/Website" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""  height="29px" width="29px" ></img></a>
                         <!--<a href="#" class="button">Learn More</a>-->
+                        </div>
                     </div>
                 </div>
-            </div>
             </article>
-            <article class="card2">
+            <!-- Libft -->
+            <article class="card">
                 <div class="flex">
-                <div class="card2-content">
-                    <h2 class="card2-title">Libft</h2>
+                    <div class="card-content">
+                    <h2 class="card-title">Libft</h2>
                         <div align="center">
-                            <p class="card2-body">My very first own library in C language</p>
-                        
+                            <p class="card-body">My very first own library in C language</p>
                             <a class="button" href="https://github.com/benmaia/42_Libft" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" height="29px" width="29px" ></img></a>
                         </div>
-                        <!--<a href="#" class="button">Learn More</a> -->
-                </div>
-            </div>
-                </article>
-            </article>
-            <article class="card3">
-                <div class="flex">
-                    <div class="card3-content">
-                        <h2 class="card3-title">Printf</h2>
-                        <div align="center">
-                            <p class="card3-body">Because putnbr and putstr aren't enough</p>
-                            <a class="button" href="https://github.com/benmaia/42_Printf" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" height="29px" width="29px" ></img></a>
-                        </div>
-                        <!--<a href="#" class="button">Learn More</a>-->
                     </div>
                 </div>
             </article>
-            <article class="card4">
+            <!-- Printf -->
+            <article class="card">
                 <div class="flex">
-                    <div class="card4-content">
-                        <h2 class="card4-title">B2R</h2>
+                    <div class="card-content">
+                        <h2 class="card-title">Printf</h2>
                         <div align="center">
-                            <p class="card4-body">The wonderful world of virtualization and shell</p>
+                            <p class="card-body">Because putnbr and putstr aren't enough</p>
                             <a class="button" href="https://github.com/benmaia/42_Printf" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""  height="29px" width="29px" ></img></a>
                         </div>
-                        <!--<a href="#" class="button">Learn More</a>-->
+                    </div>
+                </div>       
+            </article>
+            <!-- Born 2 Beroot -->
+            <article class="card">
+                <div class="flex">
+                    <div class="card-content">
+                        <h2 class="card-title">B2R</h2>
+                        <div align="center">
+                            <p class="card-body">The wonderful world of virtualization and shell</p>
+                            <a class="button" href="https://github.com/benmaia/42_Born2beRoot" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""  height="29px" width="29px" ></img></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Get Next Line -->
+            <article class="card">
+                <div class="flex">
+                    <div class="card-content">
+                        <h2 class="card-title">GNL</h2>
+                        <div align="center">
+                            <p class="card-body">Reading a line on a fd is way too tedious</p>
+                            <a class="button" href="https://github.com/benmaia/42_Get_Next_Line" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""  height="29px" width="29px" ></img></a>
+                        </div>
                     </div>
                 </div>
             </article>
         </main>
-    <!-- Libft 
-    <div>
-        <div class="card2">
-            <div class="card2-content" align="right">
-                <h2 class="card2-title">Libft</h2>
-                <div align="center">
-                <p class="card2-body">My very first own library in C language</p>
-                
-                    <a class="button" href="https://github.com/benmaia/42_Libft" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" height="29px" width="29px" ></img></a>
-                </div>
-                <!--<a href="#" class="button">Learn More</a>
-            </div>
-        </div>
-    </div>
-    <!-- Printf 
-    <div>
-        <div class="card3">
-            <div class="card3-content" align="right">
-                <h2 class="card3-title">Printf</h2>
-                <div align="center">
-                    <p class="card3-body">Because putnbr and putstr aren't enough</p>
-                    <a class="button" href="https://github.com/benmaia/42_Printf" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" height="29px" width="29px" ></img></a>
-                </div>
-                <!--<a href="#" class="button">Learn More</a>
-            </div>
-        </div>
-    </div>
-    <!-- Born 2 Beroot 
-    <div>
-        <div class="card4">
-            <div class="card4-content" align="right">
-                <h2 class="card4-title">B2R</h2>
-                <div align="center">
-                    <p class="card4-body">The wonderful world of virtualization and shell</p>
-                    <a class="button" href="https://github.com/benmaia/42_Printf" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""  height="29px" width="29px" ></img></a>
-                </div>
-                <!--<a href="#" class="button">Learn More</a>
-            </div>
-        </div>
-    </div> -->-->
-    
 </body>
 </html>

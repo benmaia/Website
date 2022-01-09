@@ -4,26 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Merriweather+Sans:wght@300;700&family=Teko:wght@500;600&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="card.css">
-    <link rel="stylesheet" href="topnav.css">
-    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Projects</title>
 </head>
 <body>
-    <!-- Top Menu bar -->
-	<div class="topnav">
-            <!-- Left-aligned links (default) -->
-			<a class="active" href="index.html"><i class="fa fa-home"></i> Home</a>
-			<!-- Right-aligned links -->
-            <div class="topnav-right">
-                <a href="#"><i class="fa fa-rss"></i> Wallet</a>
-                <a href="#"><i class="fa fa-envelope"></i> Contact</a> 
-			    <a class="active" href="#"><i class="fa fa-briefcase"></i> Projects</a>
-            </div>
-	</div> 
-    <!-- Projects --> 
+    <!-- Top nav bar -->
+	<header >
+        <a href="index.html" class="logo">
+            
+             <img src="https://cdn.discordapp.com/attachments/461563270411714561/902902970402869248/pjvmaia.png" alt="logo" width="50px" height="50px"> 
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-button">
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+        </span>
+    </label>
+    </header>
+    <!-- Projects -->
+    <main>
     <div>
         <main class="card-grid">
             <!-- Website -->
@@ -69,7 +78,7 @@
                     <div class="card-content">
                         <h2 class="card-title">B2R</h2>
                         <div align="center">
-                            <p class="card-body">The wonderful world of virtualization and shell</p>
+                            <p class="card-body">The wonderful world of virtualization </p>
                             <a class="button" href="https://github.com/benmaia/42_Born2beRoot" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""  height="29px" width="29px" ></img></a>
                         </div>
                     </div>
@@ -88,5 +97,23 @@
                 </div>
             </article>
         </main>
+        </div>
+        </main>
+        <footer>
+			<div class="footer-content">
+				<h3>Bernardo Maia</h3>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, quasi ut. Et non ducimus delectus nobis repellat quaerat, nostrum error. Dolorem consectetur voluptas ipsam nemo eum quidem similique laborum officia.</p>
+				<ul class="social-media">
+					<li><a href="#" class="fa fa-github"></a></li>
+					<li><a href="#" class="fa fa-linkedin"></a></li>
+					<li><a href="#" class="fa fa-envelope"></a></li>
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-instagram"></a></li>
+				</ul>
+			</div>
+			<div class="footer-bottom">
+				<p>copyright &copy;2022 Bernardo Maia. designed by <span>me</span></p>
+			</div>
+		</footer>
 </body>
 </html>

@@ -1,24 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Merriweather+Sans:wght@300;700&family=Teko:wght@500;600&display=swap);
+
 *,
 *::before,
 *::after {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
-	outline: 1px tomato;
+
 }
 
 body {
-	margin: 0;
 	font-family: 'Merriweather Sans', sans-serif;
-	background-color: rgb(31, 31, 36);
+	background-color: rgb(255, 255, 255);
+	background-image: url(https://wallpapercave.com/wp/4HDJRCz.jpg);
   } 
 
-h1 {
-	color: white;
-	display: inline-block;
-}
-
-p {color: white;}
-
-.header {
+.head-line {
 	float: none;
 	position: absolute;
 	top: 35%;
@@ -29,7 +26,7 @@ p {color: white;}
 }
 
 @media screen and (max-width: 1500px) {
-	.header {
+	.head-line {
 		float: none;
 		position: absolute;
 		top: 35%;
@@ -41,7 +38,7 @@ p {color: white;}
   } 
 
   @media screen and (max-width: 900px) {
-	.header {
+	.head-line {
 		float: none;
 		position: absolute;
 		top: 35%;

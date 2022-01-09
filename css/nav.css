@@ -1,0 +1,149 @@
+:root {
+    --background: rgba(197, 14, 243, 0);
+}
+
+header {
+    background: var(--background);
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+nav {
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    right: 0;
+    background: var(--background);
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 500ms ease-in-out;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+nav a:hover {
+    color: white
+
+}
+
+input {
+    display: none;
+}
+
+.nav-button:checked ~ nav {
+    transform: scale(1, 1);
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right:2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display:block;
+    background: rgb(255, 255, 255);
+    height: 3px;
+    width: 1.5em;
+    border: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content:''; /*If I don't have this, it defaults to none and nothings shows up */
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+    top: 7px;
+}
+
+.nav-button:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 400ms ease-in-out 200ms;
+}
+
+@media screen and (min-width: 870px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr auto minmax(800px, 1fr) 1fr;
+    }
+
+    .logo {
+        grid-column: 2 / 3;
+    }
+
+    nav {
+        all: unset;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav li {
+        margin-left: 3rem;
+        margin-bottom: 0;
+    }
+
+    nav a {
+        opacity: 1;
+        position: relative;
+    }
+
+    nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background: rgb(255, 255, 255);
+        position: absolute;
+        bottom: -0.5em;
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 300ms;
+    }
+
+    nav a:hover::before {
+        transform: scale(1, 1);
+    }
+}

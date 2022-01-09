@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box
+	box-sizing: border-box;
 }
 
 .card-grid {
@@ -11,6 +11,7 @@
 	'one two'
 	'three four'
 	;*/
+	align-items: center;
 	
 	
 	padding-block: 10rem;
@@ -20,9 +21,37 @@
   
   @media (min-width: 70em) {
 	.card-grid {
-		grid-template-columns: repeat(2, 1fr);
-		width: min(40%, 28rem);
+		grid-template-columns: repeat(3, 1fr);
+		width: min(50%, 44rem);
 		margin-inline: auto;
+		align-items: center;
+	}
+  }
+
+  @media (max-width: 85.5em) {
+	.card-grid {
+		grid-template-columns: repeat(2, 1fr);
+		width: min(50%, 28rem);
+		margin-inline: auto;
+		align-items: center;
+	}
+  }
+
+  @media (max-width: 56.8em) {
+	.card-grid {
+		grid-template-columns: repeat(2, 1fr);
+		width: min(100%, 28rem);
+		margin-inline: auto;
+		align-items: center;
+	}
+  }
+
+  @media (max-width: 500px) {
+	.card-grid {
+		grid-template-columns: repeat(1, 1fr);
+		width: min(100%, 13rem);
+		margin-inline: auto;
+		align-items: center;
 	}
   }
 
@@ -37,7 +66,7 @@
    	right: 44vh;
 	*/
 	color:rgb(255, 255, 255);
-	background-image: url(img/Untitled.png);
+	background-image: url(/Website/img/Untitled.png);
 	background-size: cover;
 	padding: 5rem 0rem 0rem;
 	max-width: 20ch;
@@ -60,7 +89,6 @@
 		hsl(20 0% 0% / .3) 20%,
 		hsl(0 0% 0% / 1)
 	);
-
 }
 
 .card-title {

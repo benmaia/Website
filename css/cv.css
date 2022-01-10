@@ -1,3 +1,11 @@
+.cv {
+    background-image: url(/Website/img/now3.png);
+	background-repeat: no-repeat;
+}
+
+.gap{width:200px;background:none;height:200px;display:inline-block}
+.gap2{width:200px;background:none;height:50px;display:inline-block}
+
 .cv h1 {
     display: grid;
     text-align: center;
@@ -5,23 +13,21 @@
     font-size: 100px;
     padding-top: 17rem;
 	margin-inline: auto;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .cv p {
     display: grid;
     text-align: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
 	margin-inline: auto;
     margin-top: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .cvbutton {
 	cursor: pointer;
-    float: left;
-    margin-left: 46.5%;
     text-align: center;
     align-items: center;
 	text-decoration: none;
@@ -44,12 +50,10 @@
 	}
 
     .cv p {
-		font-size: 17px;
+		font-size: 20px;
 	}
 
-    .cvbutton {
-        margin-left: 45%;
-    }
+    
   }
 
   @media (max-width: 720px) {
@@ -58,12 +62,10 @@
 	}
 
     .cv p {
-		font-size: 12px;
+		font-size: 18px;
 	}
 
-    .cvbutton {
-        margin-left: 42.5%;
-    }
+    .gap{width:0px;background:none;height:300px;display:inline-block}
   }
 
   @media (max-width: 540px) {
@@ -72,26 +74,10 @@
 	}
 
     .cv p {
-		font-size: 12px;
+		font-size: 15px;
 	}
 
-    .cvbutton {
-        margin-left: 40.5%;
-    }
-  }
-
-  @media (max-width: 500px) {
-	.cv h1 {
-		font-size: 40px;
-	}
-
-    .cv p {
-		font-size: 18px;
-	}
-
-    .cvbutton {
-        margin-left: 38%;
-    }
+    
   }
 
   @media (max-width: 320px) {
@@ -103,13 +89,11 @@
 		font-size: 18px;
 	}
 
-    .cvbutton {
-        margin-left: 110px;
-    }
+    
   }
 
 .skills {
-    padding-top: 20rem;
+    padding-top: 4rem;
     text-align: center;
 }
 
@@ -141,6 +125,9 @@
 }
 
 @media (max-width: 860px) {
+    .skills {
+        padding-top: 0;
+    }
 	.skills h1 {
 		font-size: 40px;
 	}
@@ -170,15 +157,16 @@
   }
   
 .motivations {
-    background-image: url();
+    background-image: url(/Website/img/contrario.png);
+	background-repeat: no-repeat;
+    padding-top: 13rem;
 }
 .motivation {
     display: grid;
 	gap: 1.5rem;
-    padding-top: 13rem;
-	padding-bottom: 9rem;
+	padding-bottom: 11rem;
     z-index: 999;
-	width: min(50%, 10rem);
+    width: min 10em;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -187,15 +175,15 @@
 
 .motivation h1 {
     font-size: 50px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .motivation p {
     font-size: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 600px) {
 	.motivation h1 {
 		font-size: 30px;
 	}
@@ -203,42 +191,14 @@
     .motivation p {
 		font-size: 18px;
 	}
-
-    .motivation {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-inline: auto;
-        width: min(100%, 100rem);
-        margin-left: 10px;
-        padding-top: 8rem;
-        padding-bottom: 20rem;
-    }
-  }
-
-  @media (max-width: 310px) {
-	.motivation h1 {
-		font-size: 30px;
-	}
-
-    .motivation p {
-		font-size: 18px;
-	}
-
-    .motivation {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-inline: auto;
-        width: min(100%, 100rem);
-        margin-left: 10px;
-    }
-  }
-
+}
+   
 .img {
     position: absolute;
     top: 1340px;
     left: 10%;
+}
+
+.o {
+    margin-top: 5rem;
 }

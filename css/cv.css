@@ -120,10 +120,12 @@
 
 .skills h1 {
     font-size: 50px;
+    color: black;
 }
 
 .skill h4 {
     font-size: 30px;
+    color: black;
 }
 
 .skill {
@@ -168,7 +170,7 @@
   }
   
 .motivations {
-    background-image: url(https://wallpapercave.com/wp/kEWoNLl.jpg);
+    background-image: url();
 }
 .motivation {
     display: grid;
@@ -185,10 +187,12 @@
 
 .motivation h1 {
     font-size: 50px;
+    color: black;
 }
 
 .motivation p {
     font-size: 20px;
+    color: black;
 }
 
 @media (max-width: 850px) {

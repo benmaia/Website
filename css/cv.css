@@ -1,9 +1,9 @@
 .cv {
-    background-image: url(/Website/img/now3.png);
+    background-image: url(/img/bg_top_home.png);
 	background-repeat: no-repeat;
 }
 
-.gap{width:200px;background:none;height:200px;display:inline-block}
+.gap{width:200px;background:none;height:177px;display:inline-block}
 .gap2{width:200px;background:none;height:50px;display:inline-block}
 
 .cv h1 {
@@ -32,7 +32,7 @@
     align-items: center;
 	text-decoration: none;
 	color: white;
-	background-color: blueviolet;
+	background-color: rgb(161, 43, 116);
     margin-top: 2rem;
 	padding: 0.5em 0.5em;
 	border-radius: 0.5rem;
@@ -44,6 +44,27 @@
     color: black
 }
 
+.planet {
+    position: absolute;
+    top: 4.25rem;
+    width: 200px;
+    right: 12%;
+}
+
+.astro {
+    position: absolute;
+    z-index: -9;
+    top: 45rem;
+}
+
+.orange {
+    position: absolute;
+    top: 3rem;
+    width: 250px;
+    left: 6%;
+    z-index: 0;
+}
+
 @media (max-width: 1020px) {
 	.cv h1 {
 		font-size: 80px;
@@ -53,7 +74,6 @@
 		font-size: 20px;
 	}
 
-    
   }
 
   @media (max-width: 720px) {
@@ -77,7 +97,9 @@
 		font-size: 15px;
 	}
 
-    
+    .astro {
+        width: 100%;
+    }
   }
 
   @media (max-width: 320px) {
@@ -93,8 +115,8 @@
   }
 
 .skills {
-    padding-top: 4rem;
     text-align: center;
+    
 }
 
 .skills li {
@@ -113,15 +135,17 @@
 }
 
 .skill {
-    margin-top: 3.5rem;
+    margin-top: 1rem;
     display: grid;
 	gap: 4rem;
 	align-items: center;
 	grid-template-columns: repeat(2, 1fr);
-	padding-block: 0rem;
-    
 	width: min(50%, 100rem);
 	margin-inline: auto;
+    padding-block: 2.5rem;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 1.5em;
 }
 
 @media (max-width: 860px) {
@@ -139,6 +163,18 @@
     .skill {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .astro {
+        position: absolute;
+        z-index: -9;
+        top: 55rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+      .skill {
+        width: min(100%, 100rem);
+      }
   }
 
   @media (max-width: 320px) {
@@ -152,12 +188,11 @@
 
     .skill {
         grid-template-columns: repeat(1, 1fr);
-        margin: 43px;
     }
   }
   
 .motivations {
-    background-image: url(/Website/img/contrario.png);
+    background-image: url(/img/bg_bottom_home.png);
 	background-repeat: no-repeat;
     padding-top: 13rem;
 }
@@ -183,7 +218,12 @@
     color: rgb(255, 255, 255);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 860px) {
+    .motivation {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
 	.motivation h1 {
 		font-size: 30px;
 	}
@@ -191,12 +231,6 @@
     .motivation p {
 		font-size: 18px;
 	}
-}
-   
-.img {
-    position: absolute;
-    top: 1340px;
-    left: 10%;
 }
 
 .o {

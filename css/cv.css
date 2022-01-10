@@ -1,5 +1,3 @@
-
-
 .cv h1 {
     display: grid;
     text-align: center;
@@ -7,6 +5,7 @@
     font-size: 100px;
     padding-top: 17rem;
 	margin-inline: auto;
+    color: white;
 }
 
 .cv p {
@@ -16,12 +15,13 @@
     font-size: 20px;
 	margin-inline: auto;
     margin-top: 5px;
+    color: white;
 }
 
 .cvbutton {
 	cursor: pointer;
     float: left;
-    margin-left: 45%;
+    margin-left: 46.5%;
     text-align: center;
     align-items: center;
 	text-decoration: none;
@@ -38,16 +38,98 @@
     color: black
 }
 
+@media (max-width: 1020px) {
+	.cv h1 {
+		font-size: 80px;
+	}
+
+    .cv p {
+		font-size: 17px;
+	}
+
+    .cvbutton {
+        margin-left: 45%;
+    }
+  }
+
+  @media (max-width: 720px) {
+	.cv h1 {
+		font-size: 50px;
+	}
+
+    .cv p {
+		font-size: 12px;
+	}
+
+    .cvbutton {
+        margin-left: 42.5%;
+    }
+  }
+
+  @media (max-width: 540px) {
+	.cv h1 {
+		font-size: 40px;
+	}
+
+    .cv p {
+		font-size: 12px;
+	}
+
+    .cvbutton {
+        margin-left: 40.5%;
+    }
+  }
+
+  @media (max-width: 500px) {
+	.cv h1 {
+		font-size: 40px;
+	}
+
+    .cv p {
+		font-size: 18px;
+	}
+
+    .cvbutton {
+        margin-left: 38%;
+    }
+  }
+
+  @media (max-width: 320px) {
+	.cv h1 {
+		font-size: 30px;
+	}
+
+    .cv p {
+		font-size: 18px;
+	}
+
+    .cvbutton {
+        margin-left: 110px;
+    }
+  }
+
 .skills {
     padding-top: 20rem;
     text-align: center;
-    
+}
+
+.skills li {
+    list-style: none;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 50px;
+}
+
+.skill h4 {
+    font-size: 30px;
 }
 
 .skill {
     margin-top: 3.5rem;
     display: grid;
-	gap: 1.5rem;
+	gap: 4rem;
 	align-items: center;
 	grid-template-columns: repeat(2, 1fr);
 	padding-block: 0rem;
@@ -56,23 +138,103 @@
 	margin-inline: auto;
 }
 
-.skills li {
-    list-style: none;
-}
+@media (max-width: 860px) {
+	.skills h1 {
+		font-size: 40px;
+	}
 
+    .skill h4 {
+		font-size: 20px;
+	}
+
+    .skill {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  @media (max-width: 320px) {
+	.skills h1 {
+		font-size: 40px;
+	}
+
+    .skill h4 {
+		font-size: 20px;
+	}
+
+    .skill {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 43px;
+    }
+  }
+  
 .motivations {
     background-image: url(https://wallpapercave.com/wp/kEWoNLl.jpg);
 }
-.moti {
+.motivation {
     display: grid;
 	gap: 1.5rem;
-	align-items: center;
-	grid-template-columns: repeat(3, 1fr);
-	padding-block: 10rem;
-    
-	width: min(50%, 100rem);
-	margin-inline: auto;
+    padding-top: 13rem;
+	padding-bottom: 9rem;
+    z-index: 999;
+	width: min(50%, 10rem);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-inline: auto;
+}
 
-   
+.motivation h1 {
+    font-size: 50px;
+}
 
+.motivation p {
+    font-size: 20px;
+}
+
+@media (max-width: 850px) {
+	.motivation h1 {
+		font-size: 30px;
+	}
+
+    .motivation p {
+		font-size: 18px;
+	}
+
+    .motivation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-inline: auto;
+        width: min(100%, 100rem);
+        margin-left: 10px;
+        padding-top: 8rem;
+        padding-bottom: 20rem;
+    }
+  }
+
+  @media (max-width: 310px) {
+	.motivation h1 {
+		font-size: 30px;
+	}
+
+    .motivation p {
+		font-size: 18px;
+	}
+
+    .motivation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-inline: auto;
+        width: min(100%, 100rem);
+        margin-left: 10px;
+    }
+  }
+
+.img {
+    position: absolute;
+    top: 1340px;
+    left: 10%;
 }

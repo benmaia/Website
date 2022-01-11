@@ -5,8 +5,21 @@
 }
 
 .bg {
-	background-image: url(/img/bg_project.png);
+	background-image: url(/img/bg_projects.png);
 	background-size: cover;
+}
+
+.splosh {
+    position: absolute;
+	top: 2rem;
+	right: -24rem;
+	width: 750px;
+}
+
+@media (max-width: 1202px) {
+	.splosh {
+		display: none;
+	}
 }
 
 .title {

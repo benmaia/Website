@@ -32,39 +32,38 @@
 	<!-- Contact Form -->
 	<main class="page" align="center">
 		<div class="contact-form" align="center">
-
-		
-		<form action="">
-			<div class="title">
-				<h2>Contact Me!</h2>
-			</div>
-			<div class="form-data">
-				<div class="form-item">
-					<label for="name">Name</label>
-					<input type="text" id="name" placeholder="Your Name" class="name-box">
+			<form action="https://formsubmit.co/llbernardomaia@gmail.com" method="POST">
+				<div class="title">
+					<h2>Contact Me!</h2>
 				</div>
-				<div class="form-item">
-					<label for="email">E-mail</label>
-					<input type="text" id="name" placeholder="Your E-mail" class="email-box">
+				<div class="form-data">
+					<div class="form-item">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" placeholder="Your Name" required>
+					</div>
+					<div class="form-item">
+						<label for="email">E-mail</label>
+						<input type="email" id="email" placeholder="Your E-mail" class="email-box" name="email" required>
+						<input type="hidden" name="_next" value="http://127.0.0.1:5500/contacts.html">
+					</div>
 				</div>
-			</div>
-			<div class="form-message">
-				<label for="message">Message</label>
-				<textarea name="" id="message"></textarea>
-			</div>
-			<div class="buttons">
-				<input type="submit" value="Send message">
-				<input type="reset" value="Reset">
-			</div>
-			<div class="socials">
-				<a href="" class = "fa fa-linkedin"></a>
-				<a href="" class = "fa fa-facebook"></a>
-				<a href="" class = "fa fa-instagram"></a>
-				<a href="" class = "fa fa-github"></a>
-			  </div>
-			</div>
-		</form>
-	</div>
+				<div class="form-message">
+					<label for="message">Message</label>
+					<textarea type="text" name="message" id="message"></textarea>
+				</div>
+				<div class="buttons">
+					<input type="submit" value="Send message">
+					<input type="reset" value="Reset">
+				</div>
+				<div class="socials">
+					<a href="" class = "fa fa-linkedin"></a>
+					<a href="" class = "fa fa-facebook"></a>
+					<a href="" class = "fa fa-instagram"></a>
+					<a href="" class = "fa fa-github"></a>
+				  </div>
+				</div>
+			</form>
+		</div>
 	</main>
 </body>
 </html>

@@ -4,8 +4,8 @@ body {
 
 .page {
     position: absolute;
-    margin-top: 20rem;
-    left: 50%;
+    margin-top: 10rem;
+    width: 100%;
 }
 
 .contact-form form {
@@ -16,6 +16,7 @@ body {
     border-radius: 0.5rem;
     padding: 55px 30px;
     color: white;
+    margin-bottom: 10rem;
 }
 
 .contact-form form .title h2 {
@@ -99,10 +100,17 @@ body {
 }
 
 .contact-form form .form-data .form-item input:focus,
-.contact-form form .form-message textarea:focus,
+.contact-form form .form-message textarea:focus {
+    background:rgba(66, 66, 66, 0.75);
+}
 .contact-form form .buttons input[type="reset"]:hover{
-    background:rgba(255, 255, 255, 0.75);
+    background:rgba(197, 197, 197, 0.75);
     color: black;
+}
+
+.contact-form form .buttons input[type="submit"]:hover{
+    background:rgb(161, 43, 116);
+    color: rgb(255, 255, 255);
 }
 
 

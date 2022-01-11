@@ -1,5 +1,5 @@
 footer {
-    background: rgb(102, 102, 102);
+    background: rgb(29, 29, 29);
     height: auto;
     width: 100%;
     color: white;
@@ -52,7 +52,7 @@ footer {
 }
 
 .social-media a:hover {
-    color: violet;
+    color: rgb(162, 130, 238);
 }
 
 .footer-bottom p{

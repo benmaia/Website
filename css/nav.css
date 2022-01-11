@@ -12,9 +12,12 @@ header {
 nav {
     position: absolute;
     text-align: center;
+    align-self: center;
     top: 100%;
     right: 0;
-    background: var(--background);
+    padding-left: 10px;
+    padding-top: 12px;
+    background: rgba(0, 0, 0, 0.726);;
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 500ms ease-in-out;

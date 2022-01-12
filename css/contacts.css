@@ -1,5 +1,6 @@
 body {
     background: url(/img/bg_contacts.png);
+    background-repeat: no-repeat;
 }
 
 .page {

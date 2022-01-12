@@ -5,4 +5,4 @@
 
 ## :construction_worker: So it's obvious it's still in construction :construction: ##
 
-<a href="benmaia.github.io" target="_blank">Portfolio Link</a>
+<a href="https://benmaia.github.io/" target="_blank">Portfolio Link</a>

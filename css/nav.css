@@ -1,6 +1,10 @@
+/* Selecting a color for variable background */
+
 :root {
     --background: rgba(197, 14, 243, 0);
 }
+
+/* Mobile Menu Appearance */
 
 header {
     background: var(--background);
@@ -51,6 +55,8 @@ nav a:hover {
     display: none;
 }
 
+/* Mobile Menu Functionality */
+
 .nav-button:checked ~ nav {
     transform: scale(1, 1);
 }
@@ -94,6 +100,8 @@ nav a:hover {
     opacity: 1;
     transition: opacity 400ms ease-in-out 200ms;
 }
+
+/* Menu Appearance for larger devices */
 
 @media screen and (min-width: 870px) {
     .nav-toggle-label {

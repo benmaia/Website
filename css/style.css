@@ -1,5 +1,8 @@
+/* Font */
+
 @import url(https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Merriweather+Sans:wght@300;700&family=Teko:wght@500;600&display=swap);
 
+/* Taking Margins off and use box model in all .html */
 *,
 *::before,
 *::after {
@@ -13,6 +16,8 @@ body {
 	font-family: 'Merriweather Sans', sans-serif;
 	background-color: rgb(255, 255, 255);
   } 
+
+/* Initial Content */
 
 .head-line {
 	float: none;

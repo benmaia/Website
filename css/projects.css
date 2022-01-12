@@ -4,11 +4,14 @@
 	box-sizing: border-box;
 }
 
+/* Background */
+
 .bg {
 	background-image: url(/img/bg_projects.png);
 	background-size: cover;
 }
 
+/* Image */
 .splosh {
     position: absolute;
 	top: 2rem;
@@ -21,6 +24,8 @@
 		display: none;
 	}
 }
+
+/* Text */
 
 .title {
 	position: relative;
@@ -40,18 +45,17 @@
 	border-radius: 0.5rem;
 }
 
+/* Cards 5* - Portfolio + Libft + Printf + B2R + GNL */
+
 /* Portfolio */
+
+/* Grid */
 
 .card-grid {
 	display: grid;
 	gap: 1.5rem;
-	/*grid-template-areas:
-	'one two'
-	'three four'
-	;*/
 	align-items: center;
 	margin-top: -50px;
-	
 	padding-block: 10rem;
 	width: min(80%, 13rem);
 	margin-inline: auto;
@@ -97,12 +101,10 @@
 	display: flex;
 	gap: var(--gap, 10rem);
   }
-  
+
+/* Card Body */
+
 .card {
-    /*position: absolute;
-    top: 10vh;
-   	right: 44vh;
-	*/
 	color:rgb(255, 255, 255);
 	background-image: url(/img/portfolio.png);
 	background-size: cover;
@@ -110,14 +112,17 @@
 	max-width: 20ch;
 	border-radius: 0.5rem;
 	overflow: hidden;
-
 	transition: transform 500ms ease;
 }
+
+/* Card Animation */
 
 .card:hover,
 .card:focus-within {
 	transform: scale(1.05);
 }
+
+/* Card Content */
 
 .card-content {
 	--padding: 1.5rem;
@@ -147,6 +152,8 @@
 	transition: transform 1300ms ease;
 }
 
+/* Card Content Animation */
+
 .card:hover .card-title::after,
 .card:focus-within .card-title::after {
 	transform: scaleX(1);
@@ -155,6 +162,8 @@
 .card-body {
 	color: rbg(255 255 255 / 0.85)
 }
+
+/* Card Hover Animation */
 
 @media (hover) {
 	.card-content {
@@ -188,6 +197,8 @@
 	}
 }
 
+/* Card Button */
+
 .button {
 	cursor: pointer;
 	display: inline-block;
@@ -199,10 +210,14 @@
 	border-radius: 0.75rem;
 }
 
+/* Card Button Animation */
+
 .button:hover,
 .button:focus {
 	background-color: white;
 }
+
+/* Take animations off for mobile and low animation devices */
 
 @media (prefers-reduced-motion: reduce) {
 	*,
@@ -225,8 +240,6 @@
 	display: grid;
 	gap: 1.5rem;
 	align-items: center;
-	
-	
 	padding-block: 10rem;
 	width: min(80%, 13rem);
 	margin-inline: auto;
@@ -281,7 +294,6 @@
 	max-width: 20ch;
 	border-radius: 0.5rem;
 	overflow: hidden;
-
 	transition: transform 500ms ease;
 }
 
@@ -365,8 +377,6 @@
 	display: grid;
 	gap: 1.5rem;
 	align-items: center;
-	
-	
 	padding-block: 10rem;
 	width: min(80%, 13rem);
 	margin-inline: auto;
@@ -421,7 +431,6 @@
 	max-width: 20ch;
 	border-radius: 0.5rem;
 	overflow: hidden;
-
 	transition: transform 500ms ease;
 }
 
@@ -505,8 +514,6 @@
 	display: grid;
 	gap: 1.5rem;
 	align-items: center;
-	
-	
 	padding-block: 10rem;
 	width: min(80%, 13rem);
 	margin-inline: auto;
@@ -561,7 +568,6 @@
 	max-width: 20ch;
 	border-radius: 0.5rem;
 	overflow: hidden;
-
 	transition: transform 500ms ease;
 }
 
@@ -645,8 +651,6 @@
 	display: grid;
 	gap: 1.5rem;
 	align-items: center;
-	
-	
 	padding-block: 10rem;
 	width: min(80%, 13rem);
 	margin-inline: auto;
@@ -701,7 +705,6 @@
 	max-width: 20ch;
 	border-radius: 0.5rem;
 	overflow: hidden;
-
 	transition: transform 500ms ease;
 }
 

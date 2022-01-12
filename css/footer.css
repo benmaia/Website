@@ -1,3 +1,5 @@
+/* Contact Info Footer */
+
 footer {
     background: rgb(29, 29, 29);
     height: auto;
@@ -28,6 +30,8 @@ footer {
     line-height: 28px;
     font-size: 16px;
 }
+
+/* Social Buttons */
 
 .social-media {
     list-style: none;

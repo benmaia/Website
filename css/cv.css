@@ -1,10 +1,16 @@
+/* Background */
+
 .cv {
     background-image: url(/img/bg_top_home.png);
 	background-repeat: no-repeat;
 }
 
+/* Gaps */
+
 .gap{width:200px;background:none;height:177px;display:inline-block}
 .gap2{width:200px;background:none;height:50px;display:inline-block}
+
+/* Text */
 
 .cv h1 {
     display: grid;
@@ -26,6 +32,8 @@
     color: rgb(255, 255, 255);
 }
 
+/* Button */
+
 .cvbutton {
 	cursor: pointer;
     text-align: center;
@@ -38,11 +46,15 @@
 	border-radius: 0.5rem;
 }
 
+/* Button Animation */
+
 .cvbutton:hover,
 .cvbutton:focus {
 	background-color: white;
     color: black
 }
+
+/* Images */
 
 .planet {
     position: absolute;
@@ -114,6 +126,8 @@
     
   }
 
+/* Skills Grid */
+
 .skills {
     text-align: center;
     
@@ -134,6 +148,8 @@
     color: black;
 }
 
+/* Skills Position */
+
 .skill {
     margin-top: 1rem;
     display: grid;
@@ -143,7 +159,6 @@
 	width: min(50%, 100rem);
 	margin-inline: auto;
     padding-block: 2.5rem;
-
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 1.5em;
 }
@@ -190,12 +205,17 @@
         grid-template-columns: repeat(1, 1fr);
     }
   }
-  
+
+/* Motivation Background */
+
 .motivations {
     background-image: url(/img/bg_bottom_home.png);
 	background-repeat: no-repeat;
     padding-top: 13rem;
 }
+
+/* Motivation Grid */
+
 .motivation {
     display: grid;
 	gap: 1.5rem;
@@ -232,6 +252,8 @@
 		font-size: 18px;
 	}
 }
+
+/* Aligning the buttons Homepage */
 
 .o {
     margin-top: 5rem;

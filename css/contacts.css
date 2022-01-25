@@ -2,7 +2,7 @@
 
 body {
     background: url(/img/bg_contacts.png);
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Positioning the Contact Form at the middle of the page */
